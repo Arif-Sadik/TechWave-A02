@@ -31,12 +31,11 @@
 
   <main>
     <section class="relative overflow-hidden bg-[#160724]">
-      <div class="absolute inset-x-0 top-12 hidden h-[380px] bg-[url('assets/hero-bg.png')] bg-cover bg-center opacity-90 md:block"></div>
-      <div class="absolute inset-x-0 top-10 h-52 bg-[url('assets/hero-bg.png')] bg-cover bg-center opacity-80 md:hidden"></div>
+      <img src="assets/hero-bg.png" alt="" class="absolute left-0 top-10 h-52 w-full object-cover opacity-80 md:top-12 md:h-[380px] md:opacity-90">
 
       <div class="relative mx-auto flex min-h-[560px] max-w-6xl flex-col items-center justify-center px-5 pb-20 pt-12 text-center md:min-h-[650px] md:px-8 md:pt-20">
         <div class="relative mb-8">
-          <img src="assets/hero-circle.png" alt="TechWave podcast" class="h-48 w-48 drop-shadow-[0_0_35px_rgba(180,0,255,0.45)] md:h-72 md:w-72">
+          <img src="assets/hero-circle.png" alt="TechWave podcast" class="h-48 w-48 shadow-2xl md:h-72 md:w-72">
           <span class="absolute right-0 top-2 rounded-full bg-[#00ff8b] px-4 py-1.5 text-xs font-extrabold text-[#071e18] shadow-lg shadow-emerald-400/40 md:right-1 md:top-4">
             NEW
           </span>
@@ -56,6 +55,96 @@
             <img src="assets/message.png" alt="" class="h-3.5 w-4">
             Subscribe
           </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-[#12051f] px-5 py-20 md:px-8 md:py-28">
+      <div class="mx-auto max-w-6xl text-center">
+        <h2 class="text-3xl font-extrabold tracking-tight md:text-5xl">About The Podcast</h2>
+        <div class="mx-auto mt-6 max-w-3xl space-y-5 text-sm leading-7 text-white/60 md:text-base">
+          <p>
+            TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+            We break down complex topics into digestible insights, explore productivity strategies that actually work,
+            and share stories of personal growth from industry leaders.
+          </p>
+          <p>
+            Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+          </p>
+        </div>
+
+        <div class="mt-14 border-t border-white/10 pt-12">
+          <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+            <div>
+              <h3 class="text-4xl font-extrabold text-[#00ff8b] md:text-5xl">150K+</h3>
+              <p class="mt-3 text-xs font-bold uppercase tracking-wide text-white/50">Monthly Listeners</p>
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-extrabold text-[#00ff8b] md:text-5xl">200+</h3>
+              <p class="mt-3 text-xs font-bold uppercase tracking-wide text-white/50">Episodes Published</p>
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-extrabold text-[#00ff8b] md:text-5xl">4.9&#9733;</h3>
+              <p class="mt-3 text-xs font-bold uppercase tracking-wide text-white/50">Average Rating</p>
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-extrabold text-[#00ff8b] md:text-5xl">50+</h3>
+              <p class="mt-3 text-xs font-bold uppercase tracking-wide text-white/50">Industry Experts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#230b3a] px-5 py-20 md:px-8 md:py-28">
+      <div class="mx-auto max-w-6xl">
+        <h2 class="text-center text-3xl font-extrabold tracking-tight md:text-5xl">Why Choose TechWave</h2>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-6">
+          <article class="rounded-3xl bg-[#30104e] p-8 transition hover:-translate-y-1 hover:bg-[#39145c] lg:col-span-2 lg:row-span-2 lg:flex lg:flex-col lg:justify-center">
+            <img src="assets/headphone.png" alt="" class="h-12 w-12">
+            <h3 class="mt-6 text-xl font-extrabold">Premium Audio Quality</h3>
+            <p class="mt-4 text-sm leading-6 text-white/60">
+              Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering.
+              Every episode is mastered for optimal listening across all devices and platforms.
+            </p>
+          </article>
+
+          <article class="rounded-3xl bg-[#30104e] p-8 transition hover:-translate-y-1 hover:bg-[#39145c] lg:col-span-4">
+            <img src="assets/device.png" alt="" class="h-12 w-10">
+            <h3 class="mt-6 text-xl font-extrabold">Mobile Friendly</h3>
+            <p class="mt-4 text-sm leading-6 text-white/60">
+              Listen on the go with seamless mobile experience and offline downloads.
+            </p>
+          </article>
+
+          <article class="rounded-3xl bg-[#30104e] p-8 transition hover:-translate-y-1 hover:bg-[#39145c] lg:col-span-4">
+            <img src="assets/location.png" alt="" class="h-12 w-12">
+            <h3 class="mt-6 text-xl font-extrabold">Global Community</h3>
+            <p class="mt-4 text-sm leading-6 text-white/60">
+              Connect with tech enthusiasts from over 120 countries worldwide.
+            </p>
+          </article>
+
+          <article class="rounded-3xl bg-[#30104e] p-8 transition hover:-translate-y-1 hover:bg-[#39145c] lg:col-span-4">
+            <img src="assets/microphone.png" alt="" class="h-12 w-8">
+            <h3 class="mt-6 text-xl font-extrabold">Exclusive Interviews</h3>
+            <p class="mt-4 text-sm leading-6 text-white/60">
+              Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
+              exclusive conversations you will not find anywhere else, diving deep into their journeys and failures.
+            </p>
+          </article>
+
+          <article class="rounded-3xl bg-[#30104e] p-8 transition hover:-translate-y-1 hover:bg-[#39145c] lg:col-span-2">
+            <img src="assets/resource.png" alt="" class="h-12 w-12">
+            <h3 class="mt-6 text-xl font-extrabold">Rich Resources</h3>
+            <p class="mt-4 text-sm leading-6 text-white/60">
+              Access show notes, transcripts, and additional learning materials for every episode.
+            </p>
+          </article>
         </div>
       </div>
     </section>
